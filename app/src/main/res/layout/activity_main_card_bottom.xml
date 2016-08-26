@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/activity_main_card_bottom_select_size_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_main_card_open_vertical_margin"
+        android:layout_marginStart="@dimen/activity_main_card_open_horizontal_margin"
+        android:drawableEnd="@drawable/ic_arrow_drop_down_black_24dp"
+        android:gravity="center_vertical"
+        android:text="Select Size"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/activity_main_card_bottom_buy_button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/activity_main_card_bottom_select_size_view"
+        android:layout_marginBottom="@dimen/activity_main_card_open_vertical_margin"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="@dimen/activity_main_card_open_horizontal_margin"
+        android:layout_toStartOf="@+id/activity_main_card_bottom_grab_button"
+        android:background="@drawable/buy_button_background"
+        android:elevation="4dp"
+        android:text="Buy for £99.00"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/activity_main_card_bottom_grab_button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/activity_main_card_bottom_buy_button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/activity_main_card_bottom_buy_button"
+        android:layout_marginEnd="@dimen/activity_main_card_open_horizontal_margin"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/grab_button_background"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/ic_favorite_accent_24dp"
+        android:elevation="4dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="Grab"
+        android:textAllCaps="false"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/activity_main_card_bottom_long_description_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_main_card_bottom_buy_button"
+        android:layout_marginEnd="@dimen/activity_main_card_open_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_main_card_open_horizontal_margin"
+        android:text="@string/product_dummy_text"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

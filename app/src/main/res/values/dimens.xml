@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="action_bar_default_elevation">4dp</dimen>
+    <dimen name="activity_main_card_closed_horizontal_margin">28dp</dimen>
+    <dimen name="activity_main_card_open_horizontal_margin">20dp</dimen>
+    <dimen name="activity_main_card_closed_vertical_margin">16dp</dimen>
+    <dimen name="activity_main_card_open_vertical_margin">16dp</dimen>
+    <dimen name="activity_main_card_closed_horizontal_inner_padding">16dp</dimen>
+</resources>
